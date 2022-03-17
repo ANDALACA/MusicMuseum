@@ -51,7 +51,7 @@ public class FootstepSounds : MonoBehaviour
         if (currentSpeed > 0)
         {
             distanceCovered += (currentSpeed * Time.deltaTime) * modifier;
-            if (distanceCovered > 0.005f)
+            if (distanceCovered > 0.008f)
             {
                 TriggerNextClip();
                 distanceCovered = 0;
