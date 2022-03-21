@@ -25,7 +25,7 @@ public class FootstepSounds : MonoBehaviour
 
     private void Awake()
     {
-        footstepsSoundTypes.Insert(1, Resources.LoadAll<AudioClip>("Resource Sounds/Walk Sounds/Floor"));
+        footstepsSoundTypes.Insert(0, Resources.LoadAll<AudioClip>("Resource Sounds/Walk Sounds/Floor"));
 
         //Get audio source
         audioSource = transform.GetComponent<AudioSource>();
@@ -89,20 +89,8 @@ public class FootstepSounds : MonoBehaviour
             //What are we hitting.
             switch (hit.collider.tag)
             {
-                case "Ground"://This is wrong
-                    audioSource.PlayOneShot(GetClipFromArray(footstepsSoundTypes[0]), 1);
-                    break;
-
-                case "Grass":
-                    audioSource.PlayOneShot(GetClipFromArray(footstepsSoundTypes[0]), 1);
-                    break;
-
                 case "Floor":
-                    audioSource.PlayOneShot(GetClipFromArray(footstepsSoundTypes[1]), 1);
-                    break;
-
-                case "Sand":
-                    audioSource.PlayOneShot(GetClipFromArray(footstepsSoundTypes[2]), 1);
+                    audioSource.PlayOneShot(GetClipFromArray(footstepsSoundTypes[0]), 1);
                     break;
             }
         }
