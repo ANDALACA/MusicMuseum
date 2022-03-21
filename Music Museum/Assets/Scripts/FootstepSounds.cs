@@ -25,10 +25,7 @@ public class FootstepSounds : MonoBehaviour
 
     private void Awake()
     {
-        //Load Arrays of sounds for footsteps
-        footstepsSoundTypes.Insert(0, Resources.LoadAll<AudioClip>("Resource Sounds/Walk Sounds/Grass"));
         footstepsSoundTypes.Insert(1, Resources.LoadAll<AudioClip>("Resource Sounds/Walk Sounds/Floor"));
-        footstepsSoundTypes.Insert(2, Resources.LoadAll<AudioClip>("Resource Sounds/Walk Sounds/Sand"));
 
         //Get audio source
         audioSource = transform.GetComponent<AudioSource>();
