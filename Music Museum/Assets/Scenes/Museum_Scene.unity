@@ -902,7 +902,6 @@ GameObject:
   - component: {fileID: 43476918}
   - component: {fileID: 43476921}
   - component: {fileID: 43476920}
-  - component: {fileID: 43476919}
   m_Layer: 0
   m_Name: Curtain (41)
   m_TagString: Untagged
@@ -924,20 +923,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &43476919
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43476917}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &43476920
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3069,7 +3054,6 @@ GameObject:
   - component: {fileID: 148921688}
   - component: {fileID: 148921691}
   - component: {fileID: 148921690}
-  - component: {fileID: 148921689}
   m_Layer: 0
   m_Name: Curtain (15)
   m_TagString: Untagged
@@ -3091,20 +3075,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &148921689
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148921687}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &148921690
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4396,7 +4366,6 @@ GameObject:
   - component: {fileID: 228646495}
   - component: {fileID: 228646498}
   - component: {fileID: 228646497}
-  - component: {fileID: 228646496}
   m_Layer: 0
   m_Name: Curtain (21)
   m_TagString: Untagged
@@ -4418,20 +4387,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &228646496
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 228646494}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &228646497
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5207,7 +5162,6 @@ GameObject:
   - component: {fileID: 264769046}
   - component: {fileID: 264769049}
   - component: {fileID: 264769048}
-  - component: {fileID: 264769047}
   m_Layer: 0
   m_Name: Curtain (20)
   m_TagString: Untagged
@@ -5229,20 +5183,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &264769047
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 264769045}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &264769048
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6045,7 +5985,6 @@ GameObject:
   - component: {fileID: 299385430}
   - component: {fileID: 299385433}
   - component: {fileID: 299385432}
-  - component: {fileID: 299385431}
   m_Layer: 0
   m_Name: Curtain (42)
   m_TagString: Untagged
@@ -6067,20 +6006,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &299385431
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299385429}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &299385432
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6611,7 +6536,6 @@ GameObject:
   - component: {fileID: 348573434}
   - component: {fileID: 348573437}
   - component: {fileID: 348573436}
-  - component: {fileID: 348573435}
   m_Layer: 0
   m_Name: Curtain (25)
   m_TagString: Untagged
@@ -6633,20 +6557,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &348573435
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348573433}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &348573436
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6964,7 +6874,6 @@ GameObject:
   - component: {fileID: 395343355}
   - component: {fileID: 395343358}
   - component: {fileID: 395343357}
-  - component: {fileID: 395343356}
   m_Layer: 0
   m_Name: Curtain (35)
   m_TagString: Untagged
@@ -6986,20 +6895,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &395343356
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395343354}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &395343357
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8438,7 +8333,6 @@ GameObject:
   - component: {fileID: 468286535}
   - component: {fileID: 468286538}
   - component: {fileID: 468286537}
-  - component: {fileID: 468286536}
   m_Layer: 0
   m_Name: Curtain (6)
   m_TagString: Untagged
@@ -8460,20 +8354,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &468286536
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468286534}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &468286537
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9432,7 +9312,6 @@ GameObject:
   - component: {fileID: 505416895}
   - component: {fileID: 505416898}
   - component: {fileID: 505416897}
-  - component: {fileID: 505416896}
   m_Layer: 0
   m_Name: Curtain (8)
   m_TagString: Untagged
@@ -9454,20 +9333,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &505416896
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505416894}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &505416897
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12181,7 +12046,6 @@ GameObject:
   - component: {fileID: 649366485}
   - component: {fileID: 649366488}
   - component: {fileID: 649366487}
-  - component: {fileID: 649366486}
   m_Layer: 0
   m_Name: Curtain (23)
   m_TagString: Untagged
@@ -12203,20 +12067,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &649366486
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649366484}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &649366487
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15097,7 +14947,6 @@ GameObject:
   - component: {fileID: 820426453}
   - component: {fileID: 820426456}
   - component: {fileID: 820426455}
-  - component: {fileID: 820426454}
   m_Layer: 0
   m_Name: Curtain (18)
   m_TagString: Untagged
@@ -15119,20 +14968,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &820426454
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820426452}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &820426455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15375,7 +15210,6 @@ GameObject:
   - component: {fileID: 826653009}
   - component: {fileID: 826653012}
   - component: {fileID: 826653011}
-  - component: {fileID: 826653010}
   m_Layer: 0
   m_Name: Curtain (7)
   m_TagString: Untagged
@@ -15397,20 +15231,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &826653010
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826653008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &826653011
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16789,7 +16609,6 @@ GameObject:
   - component: {fileID: 871473030}
   - component: {fileID: 871473033}
   - component: {fileID: 871473032}
-  - component: {fileID: 871473031}
   m_Layer: 0
   m_Name: Curtain (2)
   m_TagString: Untagged
@@ -16811,20 +16630,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &871473031
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871473029}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &871473032
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17356,7 +17161,6 @@ GameObject:
   - component: {fileID: 895645104}
   - component: {fileID: 895645107}
   - component: {fileID: 895645106}
-  - component: {fileID: 895645105}
   m_Layer: 0
   m_Name: Curtain (33)
   m_TagString: Untagged
@@ -17378,20 +17182,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &895645105
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895645103}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &895645106
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19629,7 +19419,6 @@ GameObject:
   - component: {fileID: 994041017}
   - component: {fileID: 994041020}
   - component: {fileID: 994041019}
-  - component: {fileID: 994041018}
   m_Layer: 0
   m_Name: Curtain (17)
   m_TagString: Untagged
@@ -19651,20 +19440,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &994041018
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994041016}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &994041019
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19807,7 +19582,6 @@ GameObject:
   - component: {fileID: 1006393441}
   - component: {fileID: 1006393444}
   - component: {fileID: 1006393443}
-  - component: {fileID: 1006393442}
   m_Layer: 0
   m_Name: Curtain (39)
   m_TagString: Untagged
@@ -19829,20 +19603,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1006393442
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006393440}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1006393443
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19903,7 +19663,6 @@ GameObject:
   - component: {fileID: 1007972734}
   - component: {fileID: 1007972737}
   - component: {fileID: 1007972736}
-  - component: {fileID: 1007972735}
   m_Layer: 0
   m_Name: Curtain (40)
   m_TagString: Untagged
@@ -19925,20 +19684,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1007972735
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007972733}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1007972736
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20883,7 +20628,6 @@ GameObject:
   - component: {fileID: 1043696982}
   - component: {fileID: 1043696985}
   - component: {fileID: 1043696984}
-  - component: {fileID: 1043696983}
   m_Layer: 0
   m_Name: Curtain (24)
   m_TagString: Untagged
@@ -20905,20 +20649,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1043696983
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043696981}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1043696984
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20979,7 +20709,6 @@ GameObject:
   - component: {fileID: 1044950409}
   - component: {fileID: 1044950412}
   - component: {fileID: 1044950411}
-  - component: {fileID: 1044950410}
   m_Layer: 0
   m_Name: Other Building Left Museum
   m_TagString: Untagged
@@ -21001,20 +20730,6 @@ Transform:
   m_Father: {fileID: 1389471644}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1044950410
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044950408}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1044950411
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22113,7 +21828,6 @@ GameObject:
   - component: {fileID: 1111999073}
   - component: {fileID: 1111999076}
   - component: {fileID: 1111999075}
-  - component: {fileID: 1111999074}
   m_Layer: 0
   m_Name: Curtain (19)
   m_TagString: Untagged
@@ -22135,20 +21849,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1111999074
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1111999072}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1111999075
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23461,7 +23161,6 @@ GameObject:
   - component: {fileID: 1151640426}
   - component: {fileID: 1151640429}
   - component: {fileID: 1151640428}
-  - component: {fileID: 1151640427}
   m_Layer: 0
   m_Name: Curtain (1)
   m_TagString: Untagged
@@ -23483,20 +23182,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1151640427
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1151640425}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1151640428
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23807,7 +23492,6 @@ GameObject:
   - component: {fileID: 1165632435}
   - component: {fileID: 1165632438}
   - component: {fileID: 1165632437}
-  - component: {fileID: 1165632436}
   m_Layer: 0
   m_Name: Curtain
   m_TagString: Untagged
@@ -23829,20 +23513,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1165632436
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1165632434}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1165632437
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24378,7 +24048,6 @@ GameObject:
   - component: {fileID: 1181588860}
   - component: {fileID: 1181588863}
   - component: {fileID: 1181588862}
-  - component: {fileID: 1181588861}
   m_Layer: 0
   m_Name: Curtain (9)
   m_TagString: Untagged
@@ -24400,20 +24069,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1181588861
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181588859}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1181588862
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26013,7 +25668,6 @@ GameObject:
   - component: {fileID: 1265043160}
   - component: {fileID: 1265043163}
   - component: {fileID: 1265043162}
-  - component: {fileID: 1265043161}
   m_Layer: 0
   m_Name: Curtain (11)
   m_TagString: Untagged
@@ -26035,20 +25689,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1265043161
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265043159}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1265043162
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27566,7 +27206,6 @@ GameObject:
   - component: {fileID: 1316363021}
   - component: {fileID: 1316363024}
   - component: {fileID: 1316363023}
-  - component: {fileID: 1316363022}
   m_Layer: 0
   m_Name: Curtain (36)
   m_TagString: Untagged
@@ -27588,20 +27227,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1316363022
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316363020}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1316363023
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28239,7 +27864,6 @@ GameObject:
   - component: {fileID: 1366689735}
   - component: {fileID: 1366689738}
   - component: {fileID: 1366689737}
-  - component: {fileID: 1366689736}
   m_Layer: 0
   m_Name: Curtain (37)
   m_TagString: Untagged
@@ -28261,20 +27885,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1366689736
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366689734}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1366689737
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28335,7 +27945,6 @@ GameObject:
   - component: {fileID: 1367156074}
   - component: {fileID: 1367156077}
   - component: {fileID: 1367156076}
-  - component: {fileID: 1367156075}
   m_Layer: 0
   m_Name: Curtain (28)
   m_TagString: Untagged
@@ -28357,20 +27966,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1367156075
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367156073}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1367156076
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34413,7 +34008,6 @@ GameObject:
   - component: {fileID: 1409756169}
   - component: {fileID: 1409756172}
   - component: {fileID: 1409756171}
-  - component: {fileID: 1409756170}
   m_Layer: 0
   m_Name: Curtain (26)
   m_TagString: Untagged
@@ -34435,20 +34029,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1409756170
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1409756168}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1409756171
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34509,7 +34089,6 @@ GameObject:
   - component: {fileID: 1414201560}
   - component: {fileID: 1414201563}
   - component: {fileID: 1414201562}
-  - component: {fileID: 1414201561}
   m_Layer: 0
   m_Name: Curtain (34)
   m_TagString: Untagged
@@ -34531,20 +34110,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1414201561
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414201559}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1414201562
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35081,7 +34646,6 @@ GameObject:
   - component: {fileID: 1430249327}
   - component: {fileID: 1430249330}
   - component: {fileID: 1430249329}
-  - component: {fileID: 1430249328}
   m_Layer: 0
   m_Name: Curtain (12)
   m_TagString: Untagged
@@ -35103,20 +34667,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1430249328
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430249326}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1430249329
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36267,7 +35817,6 @@ GameObject:
   - component: {fileID: 1492272198}
   - component: {fileID: 1492272201}
   - component: {fileID: 1492272200}
-  - component: {fileID: 1492272199}
   m_Layer: 0
   m_Name: Other Building Left Window
   m_TagString: Untagged
@@ -36290,19 +35839,6 @@ Transform:
   m_Father: {fileID: 1902788706}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 285, z: 0}
---- !u!65 &1492272199
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492272197}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.2125242, y: 1.7187979, z: 1.087521}
-  m_Center: {x: 0, y: 0.000000029802322, z: 0.5230437}
 --- !u!23 &1492272200
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38187,7 +37723,6 @@ GameObject:
   - component: {fileID: 1590921829}
   - component: {fileID: 1590921832}
   - component: {fileID: 1590921831}
-  - component: {fileID: 1590921830}
   m_Layer: 0
   m_Name: Curtain (27)
   m_TagString: Untagged
@@ -38209,20 +37744,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1590921830
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590921828}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1590921831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39334,7 +38855,6 @@ GameObject:
   - component: {fileID: 1642252299}
   - component: {fileID: 1642252302}
   - component: {fileID: 1642252301}
-  - component: {fileID: 1642252300}
   m_Layer: 0
   m_Name: Curtain (5)
   m_TagString: Untagged
@@ -39356,20 +38876,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1642252300
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642252298}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1642252301
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39731,7 +39237,6 @@ GameObject:
   - component: {fileID: 1655664399}
   - component: {fileID: 1655664402}
   - component: {fileID: 1655664401}
-  - component: {fileID: 1655664400}
   m_Layer: 0
   m_Name: Other Building Left Wall and Windows
   m_TagString: Untagged
@@ -39756,19 +39261,6 @@ Transform:
   m_Father: {fileID: 137942873}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1655664400
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1655664398}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.45312628, y: 5.0738897, z: 60.83044}
-  m_Center: {x: 0, y: 0, z: -1.1212273}
 --- !u!23 &1655664401
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40302,7 +39794,6 @@ GameObject:
   - component: {fileID: 1672140027}
   - component: {fileID: 1672140030}
   - component: {fileID: 1672140029}
-  - component: {fileID: 1672140028}
   m_Layer: 0
   m_Name: Curtain (3)
   m_TagString: Untagged
@@ -40324,20 +39815,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1672140028
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672140026}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1672140029
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41066,7 +40543,6 @@ GameObject:
   - component: {fileID: 1759870881}
   - component: {fileID: 1759870884}
   - component: {fileID: 1759870883}
-  - component: {fileID: 1759870882}
   m_Layer: 0
   m_Name: Curtain (38)
   m_TagString: Untagged
@@ -41088,20 +40564,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1759870882
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759870880}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1759870883
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42355,7 +41817,6 @@ GameObject:
   - component: {fileID: 1831361607}
   - component: {fileID: 1831361610}
   - component: {fileID: 1831361609}
-  - component: {fileID: 1831361608}
   m_Layer: 0
   m_Name: Curtain (10)
   m_TagString: Untagged
@@ -42377,20 +41838,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1831361608
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831361606}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1831361609
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43316,7 +42763,6 @@ GameObject:
   - component: {fileID: 1883382853}
   - component: {fileID: 1883382856}
   - component: {fileID: 1883382855}
-  - component: {fileID: 1883382854}
   m_Layer: 0
   m_Name: Curtain
   m_TagString: Untagged
@@ -43338,20 +42784,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1883382854
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883382852}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1883382855
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43879,7 +43311,6 @@ GameObject:
   - component: {fileID: 1895522987}
   - component: {fileID: 1895522990}
   - component: {fileID: 1895522989}
-  - component: {fileID: 1895522988}
   m_Layer: 0
   m_Name: Curtain (13)
   m_TagString: Untagged
@@ -43901,20 +43332,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1895522988
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895522986}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1895522989
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45466,7 +44883,6 @@ GameObject:
   - component: {fileID: 1959314797}
   - component: {fileID: 1959314800}
   - component: {fileID: 1959314799}
-  - component: {fileID: 1959314798}
   m_Layer: 0
   m_Name: Curtain (16)
   m_TagString: Untagged
@@ -45488,20 +44904,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &1959314798
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959314796}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1959314799
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47343,7 +46745,6 @@ GameObject:
   - component: {fileID: 2063303240}
   - component: {fileID: 2063303243}
   - component: {fileID: 2063303242}
-  - component: {fileID: 2063303241}
   m_Layer: 0
   m_Name: Curtain (14)
   m_TagString: Untagged
@@ -47365,20 +46766,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &2063303241
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2063303239}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2063303242
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47689,7 +47076,6 @@ GameObject:
   - component: {fileID: 2070076389}
   - component: {fileID: 2070076392}
   - component: {fileID: 2070076391}
-  - component: {fileID: 2070076390}
   m_Layer: 0
   m_Name: Other Building Left Reception
   m_TagString: Untagged
@@ -47711,20 +47097,6 @@ Transform:
   m_Father: {fileID: 1389471644}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &2070076390
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070076388}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2070076391
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48827,7 +48199,6 @@ GameObject:
   - component: {fileID: 2134470005}
   - component: {fileID: 2134470008}
   - component: {fileID: 2134470007}
-  - component: {fileID: 2134470006}
   m_Layer: 0
   m_Name: Curtain (4)
   m_TagString: Untagged
@@ -48849,20 +48220,6 @@ Transform:
   m_Father: {fileID: 1137525376}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!64 &2134470006
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134470004}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2134470007
 MeshRenderer:
   m_ObjectHideFlags: 0
