@@ -6,21 +6,21 @@ using UnityEngine.Events;
 public class ButtonScript : MonoBehaviour
 {
     public UnityEvent buttonClicked;
-    private Vector3 pisseposition;
+    private Vector3 position;
     [ReadOnly] public AudioSource audioSource;
     private bool pressCheckBool = false;
     [ReadOnly] public bool instrumentPlayingCheckBool = false;
     void Start()
     {
-        pisseposition = transform.position;
+        position = transform.position;
         audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
-        if (transform.position.y < pisseposition.y - transform.lossyScale.y)
+        if (transform.position.y < position.y - transform.lossyScale.y)
         {
-            transform.position = new Vector3(transform.position.x, pisseposition.y - transform.lossyScale.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x, position.y - transform.lossyScale.y, transform.position.z);
             
             if(!pressCheckBool && !instrumentPlayingCheckBool)
             {
@@ -30,12 +30,12 @@ public class ButtonScript : MonoBehaviour
             }
         }
 
-        if (transform.position.y == pisseposition.y)
+        if (transform.position.y == position.y)
         {
             pressCheckBool = false;
         }
 
-        if (transform.position.y > pisseposition.y)
-            transform.position = pisseposition;
+        if (transform.position.y > position.y)
+            transform.position = position;
     }
 }
