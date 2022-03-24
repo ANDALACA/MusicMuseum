@@ -1366,7 +1366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53548972}
   m_LocalRotation: {x: 0.7493469, y: -0.49307847, z: 0.27831113, w: -0.3433596}
-  m_LocalPosition: {x: 4.5767, y: 1.9538, z: -6.1476}
+  m_LocalPosition: {x: 4.634, y: 2.0722, z: -6.096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 82488814}
@@ -2462,6 +2462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -4498,6 +4499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -10969,6 +10971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -18785,6 +18788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -18929,6 +18933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -23061,6 +23066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -26463,6 +26469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -28220,6 +28227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -31278,6 +31286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -40484,6 +40493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -42633,6 +42643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -45070,6 +45081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -54321,6 +54333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9328e4defa23c54eb9eaf4642d8128c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticImpulse: {fileID: 1649357540}
   buttonClicked:
     m_PersistentCalls:
       m_Calls:
@@ -60503,7 +60516,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147992035184}
   m_LocalRotation: {x: 0.7011521, y: -0.5362879, z: 0.30515063, w: -0.35730124}
-  m_LocalPosition: {x: 4.6325, y: 1.9723, z: -6.1279}
+  m_LocalPosition: {x: 4.691, y: 2.0709, z: -6.0763}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1383891325}
@@ -93626,8 +93639,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521043484256380610}
   m_LocalRotation: {x: 0.50000006, y: 0.49999994, z: -0.49999994, w: -0.50000006}
-  m_LocalPosition: {x: 4.2223, y: 1.568, z: -6.5082}
-  m_LocalScale: {x: 0.23853412, y: 0.23853412, z: 0.23853412}
+  m_LocalPosition: {x: 4.2223, y: 1.639, z: -6.5082}
+  m_LocalScale: {x: 0.2781785, y: 0.2781785, z: 0.2781785}
   m_Children:
   - {fileID: 1172221820}
   - {fileID: 514897591}

@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class ButtonScript : MonoBehaviour
 {
+    public HapticImpulse hapticImpulse;
     public UnityEvent buttonClicked;
     [ReadOnly] public AudioSource audioSource;
     private bool pressCheckBool = false;
@@ -18,6 +19,7 @@ public class ButtonScript : MonoBehaviour
     {
         if(col.tag == "Hand")
         {
+            hapticImpulse.TriggerHaptics(col.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, 1f, 0.07f);
             GetComponent<Animation>().Play();
             if(!instrumentPlayingCheckBool)
             {

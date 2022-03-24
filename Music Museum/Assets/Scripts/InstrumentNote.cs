@@ -20,7 +20,7 @@ public class InstrumentNote : MonoBehaviour
         //If hand
         if (other.gameObject.tag == "Hand")
         {
-            hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .7f, 0.01f);
+            hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .7f, 0.07f);
         }
 
         //If grab interactable
@@ -29,7 +29,7 @@ public class InstrumentNote : MonoBehaviour
             //Send impule to all interactors
             foreach (UnityEngine.XR.Interaction.Toolkit.IXRSelectInteractor interactor in other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable>().interactorsSelecting)
             {
-                hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .7f, 0.01f);
+                hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .7f, 0.07f);
             }
         }
     }

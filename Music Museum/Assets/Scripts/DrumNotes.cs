@@ -30,27 +30,27 @@ public class DrumNotes : MonoBehaviour
                 if (hitSpeed > .01f)
                 {
                     playInstrument.PlaySound(softHit);
-                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .1f, 0.01f);
+                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .1f, 0.06f);
                 }
                 if (hitSpeed > 1)
                 {
                     playInstrument.PlaySound(mediumSoftHit);
-                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .2f, 0.01f);
+                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .2f, 0.07f);
                 }
                 if (hitSpeed > 2)
                 {
                     playInstrument.PlaySound(mediumHit);
-                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .4f, 0.01f);
+                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .4f, 0.08f);
                 }
                 if (hitSpeed > 3)
                 {
                     playInstrument.PlaySound(mediumHardHit);
-                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .7f, 0.01f);
+                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .7f, 0.09f);
                 }
                 if (hitSpeed > 5)
                 {
                     playInstrument.PlaySound(hardHit);
-                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, 1f, 0.01f);
+                    hapticImpulse.TriggerHaptics(other.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, 1f, 0.1f);
                 }
             }
 
@@ -63,31 +63,31 @@ public class DrumNotes : MonoBehaviour
                     if (hitSpeed > .01f)
                     {
                         playInstrument.PlaySound(softHit);
-                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .1f, 0.01f);
+                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .1f, 0.06f);
                     }
 
                     if (hitSpeed > 1)
                     {
                         playInstrument.PlaySound(mediumSoftHit);
-                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .2f, 0.01f);
+                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .2f, 0.07f);
                     }
 
                     if (hitSpeed > 2)
                     {
                         playInstrument.PlaySound(mediumHit);
-                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .4f, 0.01f);
+                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .4f, 0.08f);
                     }
 
                     if (hitSpeed > 3)
                     {
                         playInstrument.PlaySound(mediumHardHit);
-                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .7f, 0.01f);
+                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, .7f, 0.09f);
                     }
 
                     if (hitSpeed > 5)
                     {
                         playInstrument.PlaySound(hardHit);
-                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, 1f, 0.01f);
+                        hapticImpulse.TriggerHaptics(interactor.transform.GetComponent<UnityEngine.XR.Interaction.Toolkit.XRController>().inputDevice, 1f, 0.1f);
                     }
                 }
             }
