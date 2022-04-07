@@ -229,7 +229,7 @@
                 {
                     "name": "",
                     "id": "487f4f2e-9e9b-49aa-b0f2-4037a24624f5",
-                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "path": "<XRController>/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
@@ -470,7 +470,7 @@
                 {
                     "name": "",
                     "id": "fa59aed1-ae0b-4074-a58c-294b85f46228",
-                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "path": "<XRController>/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
@@ -569,7 +569,7 @@
                 {
                     "name": "",
                     "id": "1ce80054-410d-4112-a332-50faa7fb4f23",
-                    "path": "<XRController>{RightHand}/triggerButton",
+                    "path": "<XRController>/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
@@ -730,6 +730,17 @@
                     "action": "Continious",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9baf1e4b-524d-4db2-adeb-e989cb525ff6",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "Sector(directions=12,sweepBehavior=1)",
+                    "processors": "",
+                    "groups": "Noncontinuous Move",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -738,9 +749,18 @@
             "id": "9b1cf997-a4df-4c36-b6d4-42ada972871a",
             "actions": [
                 {
-                    "name": "ToggleMic",
+                    "name": "TogglePlayableInstrumentsMenu",
                     "type": "Button",
                     "id": "0924d41a-59e4-48d3-a396-59e5c81356cf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ToggleExhibitionInstrumentsMenu",
+                    "type": "Button",
+                    "id": "fe0af98c-9636-4d1f-b688-873e3c5a0d14",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -754,19 +774,19 @@
                     "path": "<XRController>{RightHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "ToggleMic",
+                    "groups": "Generic XR Controller",
+                    "action": "TogglePlayableInstrumentsMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "2726a1ba-06ba-4021-b900-4582182f12e8",
-                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "ToggleMic",
+                    "groups": "Generic XR Controller",
+                    "action": "ToggleExhibitionInstrumentsMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
