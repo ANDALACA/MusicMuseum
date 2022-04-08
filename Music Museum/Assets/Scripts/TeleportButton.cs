@@ -5,6 +5,9 @@ using UnityEngine.Events;
 
 public class TeleportButton : MonoBehaviour
 {
+    private GameObject player;
+    private ToggleMenu menu;
+
     public HapticImpulse hapticImpulse;
     public UnityEvent buttonClicked;
     [ReadOnly] public AudioSource audioSource;
@@ -12,6 +15,9 @@ public class TeleportButton : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+        menu = player.GetComponent<ToggleMenu>();
+
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -25,8 +31,18 @@ public class TeleportButton : MonoBehaviour
             {
                 audioSource.Play();
                 buttonClicked.Invoke();
+                Invoke("CloseMenu", 0.2f);
                 pressCheckBool = true;
             }
+        }
+    }
+
+    private void CloseMenu()
+    {
+        if (menu.exhibitionInstrumentsMenu.activeSelf == true || menu.playableInstrumentsMenu.activeSelf == true)
+        {
+            menu.exhibitionInstrumentsMenu.SetActive(false);
+            menu.playableInstrumentsMenu.SetActive(false);
         }
     }
 

@@ -42545,6 +42545,10 @@ PrefabInstance:
       propertyPath: hapticImpulse
       value: 
       objectReference: {fileID: 1649357540}
+    - target: {fileID: 8227620100606523217, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8700040560005479388, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -42592,6 +42596,10 @@ PrefabInstance:
     - target: {fileID: 8700040560005479389, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700040560005479389, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8773273733448660750, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
       propertyPath: m_SelectUsage
