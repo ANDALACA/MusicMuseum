@@ -43,15 +43,7 @@ public class TeleportButton : MonoBehaviour
         {
             menu.exhibitionInstrumentsMenu.SetActive(false);
             menu.playableInstrumentsMenu.SetActive(false);
-        }
-    }
-
-    private void OnTriggerExit(Collider col)
-    {
-        if(col.tag == "Hand")
-        {
-            if(pressCheckBool)
-                pressCheckBool = false;
+            pressCheckBool = false;
         }
     }
 }

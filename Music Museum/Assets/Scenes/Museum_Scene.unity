@@ -42473,6 +42473,10 @@ PrefabInstance:
       propertyPath: hapticImpulse
       value: 
       objectReference: {fileID: 1649357540}
+    - target: {fileID: 191518178087047890, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 191518178186097998, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
       propertyPath: teleportationPose
       value: 
@@ -42489,6 +42493,19 @@ PrefabInstance:
       propertyPath: hapticImpulse
       value: 
       objectReference: {fileID: 1649357540}
+    - target: {fileID: 191518178368075082, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 191518178368075085, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
+      propertyPath: m_text
+      value: "Tryk p\xE5 den r\xF8de knap\nved det instrument\ndu vil <u><b>spille</u></b>
+        p\xE5"
+      objectReference: {fileID: 0}
+    - target: {fileID: 191518178368075085, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 191518178382550012, guid: 9577b66dc62671440b0ffaf60525c7b4, type: 3}
       propertyPath: hapticImpulse
       value: 
